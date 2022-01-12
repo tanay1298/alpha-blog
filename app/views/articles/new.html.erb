@@ -10,7 +10,6 @@
 <% end  %>
 
 <%= form_with scope: :article, url: :articles, local: true do |f| %>
-
   <p>
     <%= f.label :title %></br>
     <%= f.text_field :title %>
@@ -24,5 +23,6 @@
   <p>
     <%= f.submit %>
   </p>
-
 <% end  %>
+
+<%= link_to 'Home Page', articles_path %>
