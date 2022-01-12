@@ -1,2 +1,3 @@
-# alpha-blog
-Blog Application using Ruby on Rails
+Alpha Blog Application
+
+App demo --> https://alpha-blogs-app.herokuapp.com/
